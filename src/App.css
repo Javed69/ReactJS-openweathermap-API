@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.container {
+    background-image: url('https://www.stratoscale.com/wp-content/uploads/2019/05/bigstock-168398480.jpg');
+    width: 50%;
+    border: 3px solid #4286f4;
+    box-shadow: 2px 2px #638cce;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.form {
+    margin: 5px;
+    padding: 5px;
+}
+
+.form input{
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.weather {
+    border: 3px solid #54575b;
+    background-color: #5d697a;
+}
